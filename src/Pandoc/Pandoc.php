@@ -40,19 +40,23 @@ class Pandoc
      * @var array
      */
     private $inputFormats = array(
-        "native",
-        "json",
-        "markdown",
-        "markdown_strict",
-        "markdown_phpextra",
-        "markdown_github",
-        "markdown_mmd",
-        "rst",
-        "mediawiki",
         "docbook",
+        "haddock"          ,
+        "html"             ,
+        "json",
+        "latex"            ,
+        "markdown"         ,
+        "markdown_github"  ,
+        "markdown_mmd"     ,
+        "markdown_phpextra",
+        "markdown_strict"  ,
+        "mediawiki"        ,
+        "native",
+        "opml"             ,
+        "org"              ,
+        "rst"              ,
+        "t2t"              ,
         "textile",
-        "html",
-        "latex"
     );
 
     /**
